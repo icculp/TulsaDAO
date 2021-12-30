@@ -7,14 +7,14 @@ function Navigation() {
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            TulsaDAO
+            TulsaDAO           (site under construction)
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <NavLink className="nav-link" to="/">
                   Home
-                  <span className="sr-only">(current)</span>
+                  <span className="sr-only"></span>
                 </NavLink>
               </li>
               <li className="nav-item">
