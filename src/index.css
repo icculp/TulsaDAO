@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f1e0
 }
 
 code {
@@ -21,6 +22,10 @@ code {
 
 .navbar,
 .navbar-default {
-    font-color: "#111111" !important;
+    color: "##f8f1e0" !important;
     background-color: #162b49  !important; /* override background image gradient w/ flat color */
+}
+
+.nav-link, .navbar-brand {
+  color: #f8f1e0 !important;
 }
