@@ -12,12 +12,12 @@ code {
     monospace;
 }
 
- canvas {
-  position: fixed;
+ /* canvas {
+  position: absolute;
   top:100%;
   left:100%;
   transform: translate(-100%,-94%); 
-} 
+}  */
 
 .navbar,
 .navbar-default {

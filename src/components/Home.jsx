@@ -78,7 +78,7 @@ function Home() {
   const { innerWidth, innerHeight } = useWindowSize();
   return (
     <div className="home">
-       <div class="container">
+       {/* <div class="container"> */}
       {/*  <div class="row align-items-center my-5">
           <div class="col-lg-7"> */}
           {/* <canvas id="scene">
@@ -101,8 +101,7 @@ function Home() {
               touchMoveForce={motionForce}
               backgroundColor="#f8f1e0"
             />
-          </div>,
-          <p>sdafadf</p>
+          {/* </div>, */}
           {/* <div class="col-lg-5">
             <h1 class="font-weight-light">Home</h1>
             <p>
