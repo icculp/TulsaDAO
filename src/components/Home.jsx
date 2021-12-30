@@ -78,9 +78,9 @@ function Home() {
   const { innerWidth, innerHeight } = useWindowSize();
   return (
     <div className="home">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
+       <div class="container">
+      {/*  <div class="row align-items-center my-5">
+          <div class="col-lg-7"> */}
           {/* <canvas id="scene">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
@@ -90,7 +90,7 @@ function Home() {
             </canvas>		 */}
 
         <ParticleImage
-              src={"/Full_Lockup_Transparent.png"}
+              src={"/redstone.png"}
               width={Number(innerWidth)}
               height={Number(innerHeight)}
               scale={0.50}
@@ -99,19 +99,20 @@ function Home() {
               particleOptions={particleOptions}
               mouseMoveForce={motionForce}
               touchMoveForce={motionForce}
-              backgroundColor="#162b49"
+              backgroundColor="#f8f1e0"
             />
-          </div>
-          <div class="col-lg-5">
+          </div>,
+          <p>sdafadf</p>
+          {/* <div class="col-lg-5">
             <h1 class="font-weight-light">Home</h1>
             <p>
               TulsaDAO is an organization focused on fostering coordination, education, and economic activity within the digital assets space for the greater benefit of Tulsa.
             </p>
             
-          </div>
-        </div>
-      </div>
-    </div>
+          </div> */}
+         </div>
+    //   </div>
+    // </div>
   );
 }
 

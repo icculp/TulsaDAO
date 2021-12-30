@@ -18,3 +18,9 @@ code {
   left:100%;
   transform: translate(-100%,-94%); 
 } 
+
+.navbar,
+.navbar-default {
+    font-color: "#111111" !important;
+    background-color: #162b49  !important; /* override background image gradient w/ flat color */
+}
