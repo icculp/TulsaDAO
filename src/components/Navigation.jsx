@@ -7,13 +7,14 @@ function Navigation() {
       <nav className="navbar navbar-expand navbar-dark bg-dark" style={{"backgroundColor": "#ffffff"}}>
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            TulsaDAO           (site under construction)
+          <img src="/RedSecondaryTransparent.png" style={{width: "8vh"}} />
+            (site under construction)
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <NavLink className="nav-link" to="/">
-                  Home
+                  Home 
                   <span className="sr-only"></span>
                 </NavLink>
               </li>

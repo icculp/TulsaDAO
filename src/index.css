@@ -23,9 +23,31 @@ code {
 .navbar,
 .navbar-default {
     color: "##f8f1e0" !important;
-    background-color: #162b49  !important; /* override background image gradient w/ flat color */
+    background-color: #162b49  !important; 
 }
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: pink;
+}
+
 
 .nav-link, .navbar-brand {
   color: #f8f1e0 !important;
+}
+
+.navbar-brand > img {
+  padding: 7px 14px;
+}
+
+#intake {
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.particles-wrapper {
+  /* background-color: #f8f1e0; */
+  /* height: 100%; */
+  /*width: 10%; */
 }
