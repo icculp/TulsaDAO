@@ -1,7 +1,7 @@
 import React from "react";
 
 // import * as React from "react";
-import useWindowSize from "@rooks/use-window-size";
+// import useWindowSize from "@rooks/use-window-size";
 import ParticleImage, {
   ParticleOptions,
   Vector,
@@ -75,7 +75,7 @@ const motionForce = (x: number, y: number): ParticleForce => {
 
 
 function Home() {
-  const { innerWidth, innerHeight } = useWindowSize() ;
+  // const { innerWidth, innerHeight } = useWindowSize() ;
   return (
     <div className="home">
        {/* <div class="container"> */}
@@ -88,11 +88,10 @@ function Home() {
               alt=""
             />
             </canvas>		 */}
-
+              {/* width={Number(innerWidth)}
+              height={Number(innerHeight)} */}
         <ParticleImage
               src={"/redstone.png"}
-              width={Number(innerWidth)}
-              height={Number(innerHeight)}
               scale={1}
               width="4000"
               height="1000"

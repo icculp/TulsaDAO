@@ -7,7 +7,7 @@ function Navigation() {
       <nav className="navbar navbar-expand navbar-dark bg-dark" style={{"backgroundColor": "#ffffff"}}>
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-          <img src="/RedSecondaryTransparent.png" style={{width: "8vh"}} />
+          <img src="/RedSecondaryTransparent.png" alt="TulsaDAO logo" style={{width: "8vh"}} />
             (site under construction)
           </NavLink>
           <div>
